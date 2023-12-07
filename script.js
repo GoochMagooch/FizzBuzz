@@ -1,6 +1,6 @@
-const num = document.querySelectorAll('.num');
-const btn = document.querySelectorAll('.button');
-const output = document.querySelectorAll('.output');
+const num = document.querySelector('.num');
+const btn = document.querySelector('.button');
+const output = document.querySelector('.output');
 
 function fizzbuzz() {
     if (num.value >= 1) {
