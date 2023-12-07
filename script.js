@@ -14,6 +14,8 @@ function fizzbuzz() {
         } else {
             console.log(i);
         }
+    } else {
+        alert('enter a number please');
     }
 }
 
