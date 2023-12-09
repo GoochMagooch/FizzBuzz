@@ -20,4 +20,4 @@ function fizzBuzz() {
     }
 }
 
-btn.addEventListener('click', fizzbuzz);
+btn.addEventListener('click', fizzBuzz);
