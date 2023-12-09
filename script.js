@@ -2,7 +2,7 @@ const num = document.querySelector('.num');
 const btn = document.querySelector('.button');
 const output = document.querySelector('.output');
 
-function fizzbuzz() {
+function fizzBuzz() {
     if (num.value >= 1) {
         for (i = 1; i <= num.value; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
