@@ -4,7 +4,7 @@ const output = document.querySelector('.output');
 
 function fizzBuzz() {
     if (num.value >= 1) {
-        for (i = 1; i <= num.value; i++) {
+        for (let i = 1; i <= num.value; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 console.log('FizzBuzz');
             } else if (i % 5 == 0) {
